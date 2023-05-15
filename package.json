@@ -1,6 +1,6 @@
 {
   "name": "json-xz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily read and write XZ compressed JSON or raw files",
   "keywords": [
     "json",
@@ -20,7 +20,7 @@
     "url": "git+https://github.com/Azmisov/json-xz.git"
   },
   "author": "Isaac Nygaard",
-  "license": "LGPL-3.0-or-later",
+  "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/Azmisov/json-xz/issues"
   },
