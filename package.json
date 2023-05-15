@@ -1,0 +1,34 @@
+{
+  "name": "json-xz",
+  "version": "1.0.0",
+  "description": "Easily read and write XZ compressed JSON or raw files",
+  "keywords": [
+    "json",
+    "fs",
+    "promise",
+    "filesystem",
+    "xz",
+    "compression",
+    "node"
+  ],
+  "main": "jsonxz.mjs",
+  "scripts": {
+    "bundle": "rollup --config rollup.config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azmisov/json-xz.git"
+  },
+  "author": "Isaac Nygaard",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Azmisov/json-xz/issues"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.1.0",
+    "rollup": "^3.5.0"
+  },
+  "dependencies": {
+    "xz": "^2.0.2"
+  }
+}
